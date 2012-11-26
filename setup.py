@@ -9,7 +9,8 @@ setup(
     author="Young King",
     author_email="yanckin@google.com",
     description="",
-    version="0.1",
+    version="0.2",
     packages=find_packages('.'),
+    namespace_packages=['google'],
     package_dir={'': '.'},
 )
